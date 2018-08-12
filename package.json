@@ -1,14 +1,11 @@
 {
-  "name": "@gs-utils/webpack-react-pwa",
+  "name": "@gs-utils/web-toolkit",
   "version": "0.0.0",
-  "description": "An utility to run react apps with webpack and as PWA",
+  "description": "An utility to run and build web apps",
   "bin": {
-    "gs-utils-runner": "bin/runner"
+    "gs-web-toolkit": "bin/gs-web-toolkit"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "Gopikrishna19/webpack-react-pwa",
+  "repository": "Gopikrishna19/web-toolkit",
   "keywords": [
     "webpack",
     "react",
@@ -16,5 +13,27 @@
     "runner"
   ],
   "author": "Gopikrishna Sathyamurthy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "copy-webpack-plugin": "4.5.2",
+    "css-loader": "1.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "less": "3.8.1",
+    "less-loader": "4.1.0",
+    "mini-css-extract-plugin": "0.4.1",
+    "node-sass": "4.9.3",
+    "rimraf": "2.6.2",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.22.1",
+    "webpack": "4.16.5",
+    "webpack-dev-server": "3.1.5",
+    "yargs": "12.0.1"
+  }
 }
