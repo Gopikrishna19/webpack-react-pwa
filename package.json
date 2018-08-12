@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An utility to run and build web apps",
   "bin": {
-    "gs-web-toolkit": "bin/gs-web-toolkit"
+    "gs-web-toolkit": "bin/gs-web-toolkit.js"
   },
   "repository": "Gopikrishna19/web-toolkit",
   "keywords": [
